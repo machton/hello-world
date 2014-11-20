@@ -87,3 +87,16 @@ print str(pi)
 print "Spam" + " and " + "eggs"
 
 
+# import from datetime to use it
+# pull whatever date, time, year, hour, minute, second you want
+
+from datetime import datetime
+now = datetime.now()
+
+current_year = now.year
+
+print '%s-%s-%s' % (now.year, now.month, now.day)
+
+print '%s/%s/%s' % (now.month, now.day, now.year)
+
+print '%s:%s:%s' % (now.hour, now.minute, now.second)
