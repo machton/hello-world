@@ -119,3 +119,20 @@ def clinic():
 clinic()
 
 
+# conditionals: and, or, not, xor
+
+bool_one = False and False   #false
+if bool_one == True:
+    print "Yes!"
+elif bool_one == False:
+    print "Nope."
+else: 
+    print invalid
+    
+bool_four = -(1**2) < 2**0 and 10 % 10 <= 20 - 10 * 2   #true
+if bool_four == True:
+    print "Yes!"
+elif bool_four == False:
+    print "Nope."
+else: 
+    print invalid    
